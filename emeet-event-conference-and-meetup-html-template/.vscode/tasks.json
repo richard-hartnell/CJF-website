@@ -1,0 +1,12 @@
+{
+    "version":"2.0.0",
+    "tasks": [
+        {
+            "label": "View HTML",
+            "type": "shell",
+            "command":"C:\\Program Files\\Mozilla Firefox\\firefox.exe",
+            "args": ["${file}"]
+        }
+    ]
+}
+
