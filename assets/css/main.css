@@ -7203,13 +7203,22 @@ input, select, textarea {
 			opacity: 0;
 		}
 
-	@media screen and (max-width: 980px) {
+	/* @media screen and (max-width: 980px) {
 
-		.gallery.lightbox .modal .inner img {
+		.gallery.lightbox img {
+			max-width: 100vw;
+		}
+
+	} */
+
+	@media screen and (max-width: 450px) {
+
+		.gallery.lightbox img {
 			max-width: 100vw;
 		}
 
 	}
+
 
 	.gallery article .image {
 		background-color: rgba(0, 0, 0, 0.125);
